@@ -10,6 +10,7 @@ const NewsCard = ({ news }) => {
                 <h2 className="card-title">{title}</h2>
                     {
                         details.length> 200 ?<p>{details.slice(0,200)}<Link 
+                        t
                         to={`/news/${_id}`}
                         className="text-blue-600 font-bold">Read More...</Link></p>
                         : <p>{details}</p>

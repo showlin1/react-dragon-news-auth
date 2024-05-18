@@ -11,7 +11,7 @@ import NewsCard from "./NewsCard/NewsCard";
 
 const Home = () => {
     const news = useLoaderData();
-    // console.log(news);
+    console.log(news);
     return (
         <div>
             <Header></Header>
